@@ -12,7 +12,9 @@ abstract class BasePresenter<M extends BaseModel, V extends BaseView, VM extends
 
   late VM _viewModel;
 
-  BasePresenter(this.model, this.view);
+  BasePresenter(this.model, this.view, {VM? viewModel}) {
+    _viewModel = viewModel!;
+  }
 
   setViewModel(VM vm);
 
