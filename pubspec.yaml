@@ -1,0 +1,16 @@
+name: flutter_mvp_getx
+description: MVP patter base on getx state managment
+version: 0.0.1
+homepage: https://github.com/sadegh1992/flutter_mvp
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+
+flutter:
