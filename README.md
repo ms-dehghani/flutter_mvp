@@ -11,29 +11,26 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Detail
 
-## Features
+this package provide simple way to implement MVP pattern in your flutter app.
+this package use GetX for state management.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Installing
 
-## Getting started
+Add package to your pubspec.yaml file:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  flutter_mvp_getx:
 ```
 
-## Additional information
+Import below line in files that it will be used:
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+import 'package:flutter_mvp_getx/flutter_mvp_getx.dart';
+```
+
+## How to use
+
+see sample project
